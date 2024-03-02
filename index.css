@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feb0, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+.username,
+.password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.username input,
+.password input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.btnn,.go{
+    font-style: none;
+    color:white;
+    font-weight: bold;
+}
+.para{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-left:50px;
+    padding-bottom: 50px;
+}
+.btn , .go{
+    border: 0;
+    outline: 0;
+    width: 40%;
+    height: 30%;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #91f8d9, #ae88c0);
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #8aa9eb, #aaf3e8);
+}
+
+.btnn {
+    padding-top: 40px;
+}
